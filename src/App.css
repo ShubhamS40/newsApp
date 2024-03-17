@@ -1,0 +1,17 @@
+input{
+    color: black;
+    
+}
+
+@media (max-width: 600px) {
+   .head{
+    display: none;
+   }
+  searchbar{
+    width: 50px;
+  }
+  .datebar{
+    display: none;
+  }
+
+}

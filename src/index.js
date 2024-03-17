@@ -1,0 +1,1 @@
+fetch("https://newsapi.org/v2/everything?q=bitcoin&apiKey=f3e817c9009b4619a1d6bdf6c16b0293").then((data)=>data.json()).then((news)=>console.log(news)).catch((error)=>console.log("Something Went Wrong :",error))
