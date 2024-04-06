@@ -19,8 +19,8 @@ function App() {
   return (
     <>
       <header className="bg-[#5272ff] w-[100%]  text-white flex justify-around fixed p-4">
-        <img className='w-[120px] logo' src="./logo.jpg" alt="logo" />
-        <h1 className="head font-serif  font-bold text-[150%]">Latest News || Service</h1>
+        <img className='w-[180px] sm:w-[150px] rounded-xl ' src="./devLogo.svg" alt="logo" />
+       
         
         {/* <input className="datebar w-[8vw] cursor-pointer sm:w-[20vw] indent-2 text-black rounded-lg " type='date' placeholder='Enter the Date In YYYY-MM-DD' onChange={(event)=>{
           setDate(event.target.value)
